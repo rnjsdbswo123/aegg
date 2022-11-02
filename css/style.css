@@ -1,4 +1,23 @@
-
+@font-face {
+    font-family: NanumSquareRoundBold;
+    src: url("./font/NanumSquareRoundOTFEB.otf") format("opentype");
+}
+@font-face {
+    font-family: KoPubWorldLight;
+    src: url("./font/KoPubWorld\ Dotum_Pro\ Light.otf") format("opentype");
+}
+@font-face {
+    font-family: KoPubWorldMedium;
+    src: url("./font/KoPubWorld\ Dotum_Pro\ Medium.otf") format("opentype");
+}
+@font-face {
+    font-family: KoPubWorldBold;
+    src: url("./font/KoPubWorld\ Dotum_Pro\ Bold.otf") format("opentype");
+}
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+body {
+font-family: "KoPubWorldMedium",serif;
+}
 :root{
     --site-width:1080px
 }
@@ -42,9 +61,11 @@ header > img{
     margin-right: auto;
     text-align: center;
     color: white;
+    font-weight: bold;
 
 }
 .mainBanner > .bannerText h1{
+    font-family: NanumSquareRoundBold;
     font-size: 40px;
     margin-bottom: 50px;
 }
@@ -59,15 +80,16 @@ header > img{
     padding-bottom: 100px;
 }
 .dreamStartedDescription h2{
+    line-height: 1.2;
     font-size: 33px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 .dreamStartedDescription p{
     color: gray;
-    font-size: 23px;
+    font-size: 19px;
     letter-spacing: 0.3px;
-    line-height: 1.2;
+    line-height: 1.4;
     font-weight: 400;
 }
 .dreamStartedImg{
@@ -79,7 +101,7 @@ header > img{
 }
 .cleanJeju{
     width:1200px;
-    height: 800px;
+    height: 710px;
     background-image: url('../img/CleanJejuImg.png');
     background-size: 1200px auto;
     background-repeat: no-repeat;
@@ -100,8 +122,8 @@ header > img{
 }
 .cleanJeju > .bannerText > p {
     font-size : 23px;
-    line-height: 1.3;
-    text-shadow: 2px 2px 1px black;
+    line-height: 1.5;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0, 0.5);
 }
 .contentBox{
     margin-left: auto;
@@ -123,10 +145,16 @@ header > img{
     padding-bottom: 30px;
     margin-bottom: 40px;
 }
+.firstClassEgg p{
+    line-height: 1.35;
+}
 .contentBox > .theBestManagement{
     padding-top: 30px;
     padding-bottom: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+}
+.theBestManagement p {
+    line-height: 1.35;
 }
 .contentBox h2{
     font-size: 30px;
@@ -153,18 +181,19 @@ header > img{
 .processList ol{
     margin-left: auto;
     margin-right: auto;
-    width:90%;
+    width:100%;
     display: flex;
     justify-content: space-between;
     flex-direction: row;    
 }
 .processList ol li:first-child{margin-left: 0;}
 .processList ol li{
-    margin-left:20px;
+
     width:20%;
     text-align: center;
 }
 .processList ol li span{
+    letter-spacing: 0.2px;
     display: block;
     
 }
@@ -211,6 +240,7 @@ header > img{
 }
 
 .product p{
+    line-height: 1.35;
     color:gray;
     font-size: 18px;
     padding-bottom: 40px;
@@ -266,6 +296,7 @@ header > img{
     padding-bottom: 50px;
 }
 .characters p{
+    line-height: 1.35;
     color:gray;
     font-size: 18px;
     padding-bottom: 20px;
@@ -277,7 +308,7 @@ header > img{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .socialResponsibility h2{
     font-size:30px;
@@ -289,11 +320,28 @@ header > img{
     padding-bottom: 50px;
 }
 .socialResponsibility p{
+    line-height: 1.35;
     padding-top: 50px;
     color:gray;
     font-size: 18px;
     padding-bottom: 50px;
 }
-.lastImg{
-    
+footer img{
+    margin: 10px 40px 10px 40px;
+    width:100px;
+}
+footer p{
+    line-height: 1.35;
+    padding-top: 10px;
+    line-height: 1.4;
+}
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    display: block;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+
 }
