@@ -112,6 +112,7 @@ header > img{
 .dreamStartedImg img{
     width:450px;
 }
+.mobileCleanJejuImg{display: none;}
 .cleanJeju{
     width:1200px;
     height: 710px;
@@ -138,6 +139,8 @@ header > img{
     line-height: 1.5;
     text-shadow: 2px 2px 1px rgba(0,0,0,0, 0.5);
 }
+
+
 .contentBox{
     margin-left: auto;
     margin-right: auto;
@@ -162,6 +165,9 @@ header > img{
 .firstClassEgg p{
     line-height: 1.35;
 }
+.mobileManagementImg{
+    display: none;
+}
 .contentBox > .theBestManagement{
     padding-top: 30px;
     padding-bottom: 40px;
@@ -169,6 +175,9 @@ header > img{
 }
 .theBestManagement p {
     line-height: 1.35;
+}
+.mobileFirstClassImg{
+    display: none;
 }
 .contentBox h2{
     font-size: 30px;
@@ -178,6 +187,8 @@ header > img{
     color:gray;
     font-size:18px
 }
+
+
 .honestProcess{
     margin-bottom: 70px;
     padding-bottom: 30px;
@@ -457,6 +468,9 @@ footer{
     :root{
         --site-width:350px
     }
+    body{
+    background-color:white;
+    }
     header{
         display: none;
     }
@@ -490,20 +504,17 @@ footer{
         left:10vw;
         top:75vw;
     }
-
-
-
-
-
-
     .tabletDreamStartedImg img{
         display: none;
     }
+
+
     .dreamStarted{
         width:100%;
         flex-direction: column;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 100px;
+        padding-bottom: 0;
+
     }
     .dreamStartedDescription{
         margin-left: 5vw;
@@ -512,7 +523,7 @@ footer{
 
     .dreamStartedDescription h2{
         line-height: 1.2;
-        font-size: 5vw;
+        font-size: 6.5vw;
         padding-top: 0;
         padding-bottom: 20px;
         text-align: left;
@@ -529,31 +540,105 @@ footer{
     }
 
 
-
-
-
-
     .cleanJeju{
+        
+        background-image: none;
         width:100%;
-        height: 56vw;
-        background-size: 100% auto;
-        margin-bottom: 10vw;
+        height: auto;
+        padding-top: 100px;
+    }
+    .mobileCleanJejuImg{
+        display: block;
+        width:95%;
+        margin-right: auto;
     }
     .cleanJeju > .bannerText{
-        margin-top: 10vw;
-        margin-left: auto;
+        color:black;
+        margin-top: 0;
         margin-right: auto;
-        text-align: center;
+        text-align: left;
     }
     .cleanJeju > .bannerText h1{
-        font-size: 5vw;
+        margin-left: 5vw;
+        font-size: 6.5vw;
         margin-bottom: 5vw;
     }
     .cleanJeju > .bannerText > p {
-        font-size : 3vw;
-        line-height: 1.2;
-        text-shadow: 2px 2px 1px rgba(0,0,0,0, 0.5);
+        color:gray;
+        margin-top: 5vw;
+        margin-left: 5vw;
+        font-size : 3.5vw;
+        line-height: 1.4;
     }
+
+
+    .contentBox{
+        width:100%;
+        padding-top: 100px;
+
+    }
+    .mobileFirstClassImg{
+        display: block;
+        width:95%;
+        margin-left: auto;
+    }
+    .contentBox div{
+        background-color: inherit;
+        border-radius: none;
+        box-shadow: none;
+    }
+
+    .contentBox > .firstClassEgg{
+        width:100%;
+        padding-top: 0;
+        
+    }
+
+    .contentBox > .firstClassEgg{
+        padding: 0;
+        margin: 0;
+    }
+    .firstClassEgg h2{
+        margin-right: 5vw;
+        text-align: right;
+        font-size: 6.5vw;
+    }
+    .firstClassEgg p{
+        font-size: 3.5vw;
+        line-height: 1.4;
+        text-align: right;
+        margin-right: 5vw;
+        margin-top: 5vw;
+    }
+    .mobileManagementImg{
+        display: block;
+        width:95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contentBox > .theBestManagement{
+        padding-top: 100px;
+
+    }
+    .theBestManagement > h2{
+        text-align: left;
+        font-size: 6.5vw;
+        margin-left: 5vw;
+    }
+    .theBestManagement p {
+        font-size: 3.5vw;
+        line-height: 1.4;
+        text-align: center;
+        margin-right: 0;
+        margin-top: 5vw;
+    }
+    .contentBox > .theBestManagement{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .bannerBox{display: none;}
+    .bannerBox img{display: none;}
+
 
 
 
