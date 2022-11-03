@@ -647,8 +647,8 @@ footer{
         right:5px;
         top:5px;
         margin-left: auto;
-        width:80px;
-        height:50px;
+        width:64px;
+        height:40px;
     }
     .mainBanner > .bannerText{
         text-align: left;
@@ -886,7 +886,7 @@ footer{
         border-radius: none;
         display: block;
         box-shadow: none;
-        padding-top: 70px;
+        padding-top: 80px;
         margin-bottom: 0;
     
     }
@@ -897,7 +897,7 @@ footer{
     }
     .product h3{
         padding-top: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 15px;
         font-size:4vw;
         text-align: center;
     }
@@ -910,6 +910,7 @@ footer{
         font-family: 'KoPubWorldBold';
     }
     .product .mobileProductDescription{
+        padding-top: 15px;
         display: block;
         font-size: 3.2vw;
         text-align: cneter;
@@ -953,7 +954,7 @@ footer{
     }
     .characters h3{
         padding-top: 30px;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
         font-size: 4vw;
         text-align: center;
     }
@@ -964,6 +965,7 @@ footer{
         display: none;
     }
     .mobileCharctersdescription{
+        padding-top: 20px;
         display : block;
     }
     .characters p{
@@ -977,7 +979,7 @@ footer{
 
 
     .socialResponsibility{
-        padding-top: 40px;
+        padding-top: 60px;
         border-radius: none;
         display: block;
         margin-bottom:0;
