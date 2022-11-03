@@ -455,7 +455,7 @@ footer{
 }
 @media screen and (min-width:500px) and (max-width: 1023px) {
     :root{
-        --site-width:350px
+        --site-width:500px;
     }
     header{
         display: none;
@@ -593,8 +593,12 @@ footer{
     }
 
     .bannerBox{width:100%;}
-
-
+    .bannerBox img{width:100%;}
+    .product{
+        width:80%;
+    }
+    .characters{width:80%;}
+    .characters img{width:100%;}
 
 
 
@@ -657,13 +661,15 @@ footer{
         color: gray;
     }
     
+    .socialResponsibility{width:80%;}
 
-
-
-
-
-    
-
+    .lastImg{width:100%;}
+    footer{
+        margin-left: auto;
+        margin-right: auto; 
+        height: 100%;
+        display: flex;
+    }
 
 	/* Tablet */
  }
