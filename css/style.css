@@ -643,6 +643,7 @@ footer{
         position: relative;
     }
     .mainBanner .korea{
+        border-radius: 5px;
         position: absolute;
         right:5px;
         top:5px;
@@ -906,7 +907,7 @@ footer{
     }
     .mobileProductDescription strong{
         color:black;
-        font-size:3.5vw;
+        font-size:3vw;
         font-family: 'KoPubWorldBold';
     }
     .product .mobileProductDescription{
@@ -938,7 +939,7 @@ footer{
 
 
     .characters{
-        padding-top: 80px;
+        padding-top: 90px;
         background-color: white;
         border-radius: 0;
         display: block;
@@ -979,7 +980,7 @@ footer{
 
 
     .socialResponsibility{
-        padding-top: 60px;
+        padding-top: 80px;
         border-radius: none;
         display: block;
         margin-bottom:0;
