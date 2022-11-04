@@ -771,25 +771,32 @@ footer{
     }
 
     .dreamStartedDescription h2{
+        opacity: 0;
         line-height: 1.2;
         font-size: 6.5vw;
+        margin-left: -60px;
         padding-top: 0;
         padding-bottom: 20px;
         text-align: left;
     }
-    .dreamStartedDescription h2:hover{
-        line-height: 1.2;
-        font-size: 6.5vw;
-        margin-left: -30px;
-        padding-bottom: 20px;
-        text-align: left;
-        color: red;
+
+    .dreamStartedDescription .dreamStartedDescriptionH2Slide{
+        opacity: 1;
+        margin-left: 0;
+        transition: opacity 3s, margin-left 2s;
     }
     .dreamStartedDescription p{
+        opacity: 0;
         font-size: 3vw;
         letter-spacing: 0.3px;
         line-height: 1.4;
         text-align: left;
+        margin-left: -70px;
+    }
+    .dreamStartedDescription .dreamStartedDescriptionPSlide{
+        opacity: 1;
+        margin-left: 0;
+        transition: opacity 3s, margin-left 4s;
     }
     .dreamStartedImg{width:100%;}
     .dreamStartedImg img{
@@ -817,16 +824,35 @@ footer{
         text-align: left;
     }
     .cleanJeju > .bannerText h1{
-        margin-left: 5vw;
+        margin-left: -60px;
+        opacity: 0;
         font-size: 6.5vw;
         margin-bottom: 5vw;
     }
+    .cleanJeju > .bannerText .bannerTexth1Slide{
+        margin-left: 5vw;
+        opacity: 1;
+        font-size: 6.5vw;
+        margin-bottom: 5vw;
+        transition: opacity 3s, margin-left 4s;
+    }
     .cleanJeju > .bannerText > p {
         color:gray;
+        opacity: 0;
+        margin-top: 5vw;
+        margin-left: -60px;
+        font-size : 3.5vw;
+        line-height: 1.4;
+    }
+    .cleanJeju > .bannerText .bannerTextPSlide {
+        color:gray;
+        opacity: 1;
         margin-top: 5vw;
         margin-left: 5vw;
         font-size : 3.5vw;
         line-height: 1.4;
+        transition: opacity 3s, margin-left 4s;
+
     }
 
 
@@ -857,16 +883,36 @@ footer{
         margin: 0;
     }
     .firstClassEgg h2{
-        margin-right: 5vw;
+        margin-right: -60px;
+        opacity: 0;
         text-align: right;
         font-size: 6.5vw;
     }
+    .firstClassEgg .firstClassEggHead{
+        opacity: 1;
+        margin-right: 5vw;
+        text-align: right;
+        font-size: 6.5vw;
+        transition: opacity 3s, margin-right 4s;
+
+    }
     .firstClassEgg p{
+        opacity: 0;
+        font-size: 3.5vw;
+        line-height: 1.4;
+        text-align: right;
+        margin-right: -70px;
+        margin-top: 5vw;
+    }
+    .firstClassEgg .firstClassEggP{
+        opacity: 1;
         font-size: 3.5vw;
         line-height: 1.4;
         text-align: right;
         margin-right: 5vw;
         margin-top: 5vw;
+        transition: opacity 3s, margin-right 4s;
+
     }
     .mobileManagementImg{
         display: block;
