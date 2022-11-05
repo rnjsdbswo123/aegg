@@ -15,7 +15,7 @@ function arrowOpacity0(){
     }
 }
 
-
+// 리팩토링 or 글이 아닌 그림으로 다시
 // slide opacity 
 function finddreamStartDescriptionHeadSlide(){
     if(window.scrollY > 300){
@@ -58,7 +58,7 @@ function findFirstClassEggPSlide(){
     }
 }
 
-
+// 이부분까지
 
 
 
